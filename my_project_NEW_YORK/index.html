@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon2.ico" />
+    <script type="text/javascript" src="library_native_objects.js"></script>
+    <script type="text/javascript" src="library_storage.js"></script>
+    <script type="text/javascript" src="library_task.js"></script>
+    <script type="text/javascript" src="library_tasklist.js"></script>
+    <script type="text/javascript" src="library_slide_show.js"></script>
+    <script type="text/javascript" src="library_slide_show_enhancements.js"></script>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <main>
+      <div class="horizontal-beauty">
+        <h2 style="padding: 30px;">the 1500s, when an unknown printer took a galley
+           of type and scramelease of Letraset
+            desktop publishing software like Aldus PageMaker including v
+            ersions of Lorem Ips when an unknown printer took a galley of type and scramelease
+             of Letraset sheets containing Lorem Ipsum passages, and more recen</h2>
+      </div>
+      <div class="vertical-beauty">
+
+      </div>
+      <div class="cell">
+        <h1>Digital clock</h1>
+        <fieldset>
+            <legend>Clock</legend>
+            <span id="hours">&nbsp;</span>:
+            <span id="minutes">&nbsp;</span>:
+            <span id="seconds">&nbsp;</span>&nbsp;
+            <span id="ampm">&nbsp;</span>
+        </fieldset>
+      </div>
+      <div class="cell">
+        <h1>Celsius & Fahrenheit</h1>
+          <label for="cf">Enter the temperature:</label><br>
+          <input type="text" name="cf" id="cf"><br>
+          <input class="radiobuttons" type="radio" name="calculation" id="toCelsius" />to Celsius
+          <input class="radiobuttons" type="radio" name="calculation" id="toFahringeit"/>to Fahrenheit
+          <br />
+          <input type="button" id="calculate" value="Calculate"><br>
+
+
+      </div>
+      <div class="cell">
+        <h1>Task Manager</h1>
+        <div id="tasks"></div>
+        <label for="task">Task:</label><br>
+            <input type="text" name="task" id="task"><br>
+        <label for="date">Date:</label><br>
+            <input type="text" name="date" id="date"><br>
+        <input type="button" name="add_task" id="add_task" value="Add Task"><br>
+        <input type="button" name="clear_tasks" id="clear_tasks" value="Clear Tasks">
+        <div class="clear"></div>
+      </div>
+      <div class="cell-img">
+
+          <h1>New York New York</h1>
+          <p>
+              <input type="button" id="play_pause" value="Pause">
+              <input type="button" id="change_speed" value="Change Speed">
+              <input type="button" id="change_caption" value="Change Caption">
+          </p>
+          <p><img src="images/bridge.jpg" id="image" alt=""></p>
+          <p><span id="caption">Once upon a time..</span></p>
+      </div>
+    </main>
+</body>
+</html>

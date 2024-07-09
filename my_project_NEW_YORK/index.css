@@ -1,0 +1,92 @@
+body {
+  background-color: #FBFFE2;
+  margin: 0;
+}
+.horizontal-beauty{
+  background-color: #FDD2BF;
+  color: #003638;
+  text-align: center;
+  width: 60em;
+  height: 200px;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.vertical-beauty{
+  position: absolute;
+  background-color: #FFEBCC;
+  width: 200px;
+  height: 60em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.cell {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 725px;
+    margin: 40px auto;
+    border: 3px solid #DF7861;
+    padding: 0 2em 1em;
+    border-radius: 10px;
+}
+.cell-img {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 550px;
+    margin: 40px auto;
+    /* margin: 0 auto; */
+    border: 3px solid #055052;
+    padding: 0 2em 1em;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 150%;
+    color: #003638;
+    margin-bottom: .5em;
+}
+h2 {
+  margin: 0;
+}
+
+label {
+    float: left;
+    /* width: 8em; */
+}
+input {
+    width: 20em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#tasks {
+    float: right;
+    width: 25em;
+    margin: 0 0 .5em;
+	padding: 1em;
+	border: 2px solid #003638;
+}
+#tasks a {
+    margin-right: 0.5em;
+}
+p {
+	margin: 0;
+	padding-bottom: .5em;
+}
+.clear {
+    clear: both;
+}
+
+#image{
+  width:300px;
+  height:400px;
+  object-fit:scale-down;
+}
+
+.radiobuttons {
+  width: 50px;
+  align: left;
+}
